@@ -1,0 +1,189 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+	background: #ffffff;
+	color: #000000;
+	font-family: 'Open Sans', Sans-serif;
+	margin: 0;
+}
+
+nav {
+	background: #75e2e6;
+	border-bottom: 4px solid #488EA6;
+	color: #000000;
+	height: 6%;
+	min-height: 65px;
+	width: auto;
+}
+
+ul {
+	float: right;
+	margin-left: auto;
+	margin: 0;
+	padding: 1%;
+	text-align: right;
+}
+
+li {
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 1px 0 0;
+	padding: 10px 10px 0px 10px;
+}
+
+#icon {
+	display: inline-block;
+	height: 75px;
+	margin: 0;
+	overflow: hidden;
+	padding: 1% 1%;
+}
+
+header {
+	background-image: url(images/park.jpg);
+	background-position-y: -330px;	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: lightgray;
+	background-blend-mode: multiply;
+	height: auto;
+	min-height: 443px;
+	width: 100%;
+}
+
+img {
+	border-radius: 50%;
+	display: block;
+	height: 170px;
+	margin: 0 auto;
+}
+
+article img {
+	border-color: #048eaa;
+	border-style: solid;
+	display: block;
+}
+
+header img {
+	border-color: #048eaa;
+	border-style: solid;
+}
+
+h1 {
+	color: #ffffff;
+	font-weight: normal;
+	margin-top: 0;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+form {
+	color: #ffffff;
+	display: block;
+	font-size: 20px;
+	margin-left: 39%;
+	text-align: left;
+}
+
+input[type=text] {
+	border-radius: 2%;
+  	border-style: none;
+	height: 39px;
+	width: 40%;
+}
+
+input[type="submit"] {
+	background-color: #75e2e6;
+	border-radius: 2%;
+  	border-style: none;
+	height: 39px;
+	width: 40%;
+}
+
+input[value="Name This Dog"] {
+	font-size: 20px;
+}
+
+section {
+	break-inside: avoid;
+	column-count: 3;
+	height: 47%;
+	margin: 10px;
+	padding: 10px;
+	width: auto;
+}
+
+article {
+	font-weight: 600;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.box2 {
+	margin-top: -20px;
+}
+
+.box3 {
+	margin-top: -10px;
+}
+
+.button {
+	background-color: #048eaa;
+	border-radius: 2%;
+	border-style: none;
+	color: #ffffff;
+	display: block;
+	height: 47px;
+	line-height: 45px;
+	margin: 0 auto;
+	text-align: center;
+	text-decoration: none;
+	width: 410px;
+}
+
+p {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+h2 {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+div {
+	column-count: 3;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+footer {
+	background: #048eaa;
+	height: 13%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: auto;
+}
+
+h3 {
+	color: #ffffff;
+	display: block;
+	padding-top: 34px;
+}
+
+.icons {
+	border-radius: unset;
+	display: inline-block;
+	height: 10%;
+  padding: 6px;
+  padding-bottom: 40px;
+}

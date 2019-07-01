@@ -1,0 +1,221 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+	background: #ffffff;
+	color: #000000;
+	font-family: 'Roboto Slab', serif;
+	margin: 0;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+img {
+	border-radius: 50%;
+}
+
+nav {
+	background: #9A969C;
+	border-right: solid 3px #3E3544;
+	display: block;
+	font-weight: bold;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	object-fit: contain;
+	top: 0;
+	width: 17%;
+}
+
+#icon {
+	border: none;
+	height: auto;
+	width:76%;
+	margin: 27px 12.5%;
+	margin-bottom: 21px;
+	max-height: 132px;	
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	padding-bottom: 42px;
+	padding-left: 20%;
+}
+
+header {
+	background: #3E3544;
+	margin-left:17%;
+	min-height: 350px;
+	position:relative;
+}
+
+h1 {
+	font-size: 38px;
+	margin-top: 0;
+	padding-right: 25%;
+	padding-top: 5%;
+	text-align:	right;
+  color: #ffffff;
+  font-weight: 200;
+}
+
+.dog1 {
+	border: 8px solid #9A969C;
+	position: absolute;
+	bottom: 15px;
+	left: 30px;
+	height: 90%;
+}
+
+form {
+	color: #ffffff;
+	position: relative;
+	left: 39%;
+	font-weight: 200;
+}
+
+input[type="text"] {
+	width: 36%;
+	height: 50px;
+	border-radius: 2%;
+	border-style: none;
+	font-size: 17px;
+}
+
+input[type="submit"] {
+	background-color: #9A969C;
+	border-radius: 2%;
+  border-style: none;
+	height: 50px;
+	width: 36%;
+}
+
+input[value="Name This Dog"] {
+	font-size: 17px;
+	font-weight: 800;
+}
+
+section {
+	margin-left: 17%;
+}
+
+h2 {
+	padding-left: 30px;
+}
+
+article {
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	position: relative;
+	border-bottom: 1px solid #9A969C;
+}
+
+article img {
+	border: 5px solid #9A969C;
+	max-height: 190px;
+}
+
+p {
+	font-size: 16px;
+	text-align: left;
+	font-weight: 300;
+	position: absolute;
+	right: 200px;
+	max-width: 60%;
+	display: inline-block;
+}
+
+div {
+	text-align: center;
+	position: relative;
+	line-height: 2.8;
+}
+
+.button1 {
+	background: #3E3544;
+	position: absolute;
+	left: 70%;
+	bottom:	720px;
+	color: #ffffff;
+	text-decoration: none;
+	width: 13%;
+	border-radius: 2%;
+}
+
+.button2 {
+	background: #3E3544;
+	border-radius: 2%;
+	position: absolute;
+	left: 70%;
+	bottom:	390px;
+	color: #ffffff;
+	text-decoration: none;
+	width: 13%;
+}
+
+.button3 {
+	background: #3E3544;
+	border-radius: 2%;
+	position: absolute;
+	left: 70%;
+	bottom:	70px;
+	color: #ffffff;
+	text-decoration: none;
+	width: 13%;
+}
+
+footer {
+	margin-left: 17%;
+	background-color: #3E3544;
+	text-align: right;
+	color: #ffffff;
+	height: 200px;
+	/*padding-top: 30px;*/
+	position: relative;
+
+}
+
+h3 {
+	margin-right: 30px;
+	display: inline-block;
+	font-size: 25px;
+}
+
+.icons {
+	padding: 30px 20px;
+	display: inline-block;
+
+}
+
+.icon1{
+	padding-right: 20px;
+	border-radius: unset;
+}
+
+.icon2 {
+	border-radius: unset;
+}
+
+.icon3 {
+	position: absolute;
+	bottom: -50px;
+	right: 95px;
+	border-radius: unset;
+}
+
+.icon4 {
+	position: absolute;
+	bottom: -50px;
+	right: 20px;
+	border-radius: unset;
+}
